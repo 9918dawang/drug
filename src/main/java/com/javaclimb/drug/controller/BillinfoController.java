@@ -59,6 +59,7 @@ public class BillinfoController {
     public Object billinfoAdd(Billinfo billinfo){
         try{
             System.out.println("111");
+            System.out.println("hello git3");
             int i = billinfoService.addBillinfo(billinfo);
             return ResultMapUtil.getHashMapSave(i);
         } catch (Exception e){
