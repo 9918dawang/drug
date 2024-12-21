@@ -60,6 +60,7 @@ public class BillinfoController {
         try{
             System.out.println("111");
             System.out.println("hello git3");
+            System.out.println("hot fix change1");
             int i = billinfoService.addBillinfo(billinfo);
             return ResultMapUtil.getHashMapSave(i);
         } catch (Exception e){
